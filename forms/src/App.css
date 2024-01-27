@@ -1,0 +1,54 @@
+* {
+  background-color: blanchedalmond;
+}
+
+.form-parent {
+  margin: 4% auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40vw;
+  max-width: 600px;
+  height: auto;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-parent input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: azure;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form-parent p {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#register {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-weight: 900;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#register:hover {
+  background-color: darkorange;
+}
+
+#succes_msg {
+  color: green;
+  font-size: 18px;
+  margin-top: 10px;
+}
